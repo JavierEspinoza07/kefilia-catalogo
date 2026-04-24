@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kefilia — Kefir artesanal vivo</title>
+  <meta name="description"
+    content="Kefir natural y saborizado, más kefir griego extra cremoso. Frasco retornable, probióticos vivos, entrega fría. Pide directo por WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- PROMO BAR -->
+  <div class="promo-bar">
+    Promo de lanzamiento: Kefir natural 1L a solo Bs 35
+  </div>
+
+  <!-- FLOATING CTA -->
+  <a id="floatingCta" class="floating-cta" href="https://wa.me/59160134314?text=Quiero%20pedir%20Kefilia"
+    target="_blank" rel="noopener">
+    Pedir por WhatsApp
+    <span id="floatingCartCount" class="floating-cta__count">0</span>
+  </a>
+
+  <main class="catalog-layout">
+
+    <!-- ── HERO ── -->
+    <header class="catalog-head hero-cover reveal">
+      <div class="hero-bg">
+        <video class="hero-video" autoplay muted loop playsinline webkit-playsinline="true" preload="auto"
+          poster="kefir.png" controlslist="nodownload noplaybackrate nofullscreen" disablepictureinpicture
+          disableremoteplayback>
+          <source src="portada.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-copy hero-centered">
+        <p class="kicker">Kefilia</p>
+        <h1 class="hero-title">Kefir vivo.<br>Sabor real.</h1>
+        <p class="lead">
+          Fermentado 24h con cultivos activos. Natural, saborizado o griego — con frasco retornable de vidrio incluido
+          en tu primer pedido.
+        </p>
+        <div class="hero-inline">
+          <span class="pill">Frasco retornable</span>
+          <span class="pill pill-strong">Promo: Bs 35 natural</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#productos">Ver sabores</a>
+          <a class="btn ghost" href="https://wa.me/59160134314?text=Quiero%20pedir%20Kefir" target="_blank"
+            rel="noopener">Ordenar ahora</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── BENEFITS ── -->
+    <section class="benefits reveal">
+      <div class="benefit-chip">Frasco retornable</div>
+      <div class="benefit-chip">Probióticos vivos</div>
+      <div class="benefit-chip">Entrega fría</div>
+      <div class="benefit-chip">Listo en 24h</div>
+      <div class="benefit-chip">Sin saborizantes</div>
+      <div class="benefit-chip">Modelo refill</div>
+    </section>
+
+    <!-- ── PRODUCTS ── -->
+    <section id="productos" class="catalog-block reveal">
+      <div class="block-head">
+        <span class="section-label">Catálogo</span>
+        <h2>Elige tu Kefilia</h2>
+        <p>Precios transparentes. Con frasco retornable en tu primera compra, refill a precio especial.</p>
+      </div>
+      <div class="products-grid">
+
+        <!-- Kefir natural -->
+        <article class="product-card" data-id="1" data-jar="42" data-refill="20" data-promo="35">
+          <img src="kefir.png" alt="Kefir natural 1L" loading="lazy">
+          <div class="product-body">
+            <div class="product-top">
+              <span class="tag">Clásico</span>
+              <span class="badge badge-promo">Promo</span>
+            </div>
+            <h3 class="product-title">Kefir natural 1L</h3>
+            <p class="product-desc">Kefir vivo sin sabor, fermentado 24h. Incluye frasco retornable en la primera
+              compra.</p>
+            <div class="price-stack">
+              <span class="price-main">Bs 35 <small
+                  style="font-size:0.6em;font-weight:600;opacity:0.7">promo</small></span>
+              <span class="price-sub">Con frasco Bs 42 &nbsp;·&nbsp; Refill Bs 20</span>
+            </div>
+            <div class="divider"></div>
+            <div class="qty-inline">
+              <button type="button" class="qty-btn" data-minus>−</button>
+              <input type="number" min="1" value="1" class="qty-input">
+              <button type="button" class="qty-btn" data-plus>+</button>
+              <button class="btn primary small add-jar" type="button">+ Frasco</button>
+              <button class="btn ghost small add-refill" type="button">Refill</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Strawkefir -->
+        <article class="product-card" data-id="2" data-jar="48" data-refill="26" data-promo="40">
+          <img src="strawkefir.png" alt="Strawkefir 1L" loading="lazy">
+          <div class="product-body">
+            <div class="product-top">
+              <span class="tag">Saborizado</span>
+              <span class="badge badge-promo">Promo</span>
+            </div>
+            <h3 class="product-title">Strawkefir 1L</h3>
+            <p class="product-desc">Kefir con frutilla natural, balance dulce-ácido sin saborizantes artificiales.</p>
+            <div class="price-stack">
+              <span class="price-main">Bs 40 <small
+                  style="font-size:0.6em;font-weight:600;opacity:0.7">promo</small></span>
+              <span class="price-sub">Con frasco Bs 48 &nbsp;·&nbsp; Refill Bs 26</span>
+            </div>
+            <div class="divider"></div>
+            <div class="qty-inline">
+              <button type="button" class="qty-btn" data-minus>−</button>
+              <input type="number" min="1" value="1" class="qty-input">
+              <button type="button" class="qty-btn" data-plus>+</button>
+              <button class="btn primary small add-jar" type="button">+ Frasco</button>
+              <button class="btn ghost small add-refill" type="button">Refill</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Chocokefir -->
+        <article class="product-card" data-id="3" data-jar="50" data-refill="28" data-promo="42">
+          <img src="chocokefir.png" alt="Chocokefir 1L" loading="lazy">
+          <div class="product-body">
+            <div class="product-top">
+              <span class="tag">Saborizado</span>
+              <span class="badge badge-promo">Promo</span>
+            </div>
+            <h3 class="product-title">Chocokefir 1L</h3>
+            <p class="product-desc">Kefir con cacao real, cremoso y ligero. Ideal para desayuno o post-entreno.</p>
+            <div class="price-stack">
+              <span class="price-main">Bs 40 <small
+                  style="font-size:0.6em;font-weight:600;opacity:0.7">promo</small></span>
+              <span class="price-sub">Con frasco Bs 50 &nbsp;·&nbsp; Refill Bs 28</span>
+            </div>
+            <div class="divider"></div>
+            <div class="qty-inline">
+              <button type="button" class="qty-btn" data-minus>−</button>
+              <input type="number" min="1" value="1" class="qty-input">
+              <button type="button" class="qty-btn" data-plus>+</button>
+              <button class="btn primary small add-jar" type="button">+ Frasco</button>
+              <button class="btn ghost small add-refill" type="button">Refill</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Griego natural -->
+        <article class="product-card" data-id="4" data-jar="55" data-refill="35" data-promo="46">
+          <img src="kefirgriergo.png" alt="Kefir griego natural 1L" loading="lazy">
+          <div class="product-body">
+            <div class="product-top">
+              <span class="tag">Griego</span>
+              <span class="badge badge-promo">Promo</span>
+            </div>
+            <h3 class="product-title">Kefir griego natural 1L</h3>
+            <p class="product-desc">Textura espesa estilo yogurt griego, sin azúcar, alto en proteína y probióticos.</p>
+            <div class="price-stack">
+              <span class="price-main">Bs 46 <small
+                  style="font-size:0.6em;font-weight:600;opacity:0.7">promo</small></span>
+              <span class="price-sub">Con frasco Bs 55 &nbsp;·&nbsp; Refill Bs 35</span>
+            </div>
+            <div class="divider"></div>
+            <div class="qty-inline">
+              <button type="button" class="qty-btn" data-minus>−</button>
+              <input type="number" min="1" value="1" class="qty-input">
+              <button type="button" class="qty-btn" data-plus>+</button>
+              <button class="btn primary small add-jar" type="button">+ Frasco</button>
+              <button class="btn ghost small add-refill" type="button">Refill</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Griego frutilla -->
+        <article class="product-card" data-id="5" data-jar="60" data-refill="38" data-promo="50">
+          <img src="griegofrutilla.png" alt="Kefir griego frutilla 1L" loading="lazy">
+          <div class="product-body">
+            <div class="product-top">
+              <span class="tag">Griego</span>
+              <span class="badge badge-promo">Promo</span>
+            </div>
+            <h3 class="product-title">Kefir griego frutilla 1L</h3>
+            <p class="product-desc">Kefir griego con frutilla natural. Postre vivo y nutritivo — sin culpas.</p>
+            <div class="price-stack">
+              <span class="price-main">Bs 50 <small
+                  style="font-size:0.6em;font-weight:600;opacity:0.7">promo</small></span>
+              <span class="price-sub">Con frasco Bs 60 &nbsp;·&nbsp; Refill Bs 38</span>
+            </div>
+            <div class="divider"></div>
+            <div class="qty-inline">
+              <button type="button" class="qty-btn" data-minus>−</button>
+              <input type="number" min="1" value="1" class="qty-input">
+              <button type="button" class="qty-btn" data-plus>+</button>
+              <button class="btn primary small add-jar" type="button">+ Frasco</button>
+              <button class="btn ghost small add-refill" type="button">Refill</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── CART ── -->
+    <section class="catalog-block cart-static reveal">
+      <div class="block-head">
+        <span class="section-label">Tu pedido</span>
+        <h2>Carrito rápido</h2>
+        <p>Confirma tu selección y envíala directo a WhatsApp con un solo clic.</p>
+      </div>
+      <div class="cart-static-body">
+        <div class="cart-list" id="cartList">
+          <p class="cart-empty">Aún no agregas productos.</p>
+        </div>
+        <div class="cart-line total">
+          <span>Total estimado</span>
+          <strong id="cartTotal">Bs 0</strong>
+        </div>
+        <a class="btn primary full cart-cta disabled" id="cartWA" href="#" target="_blank" rel="noopener">
+          Enviar pedido por WhatsApp
+        </a>
+        <p class="cart-note">* Los precios mostrados son de promo. Puedes ajustar cantidades al confirmar.</p>
+      </div>
+    </section>
+
+    <!-- ── HOW IT WORKS ── -->
+    <section class="catalog-block reveal">
+      <div class="block-head">
+        <span class="section-label">Modelo retornable</span>
+        <h2>¿Cómo funciona?</h2>
+        <p>Compra el Starter una sola vez, recarga siempre que quieras.</p>
+      </div>
+      <div class="info-steps">
+        <div class="step">
+          <span class="step-number">1</span>
+          <h3>Compra tu Starter</h3>
+          <p>Incluye frasco de vidrio 1L. Te lo entregamos frío y listo para tomar.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">2</span>
+          <h3>Devuelve y recarga</h3>
+          <p>Trae el frasco limpio en cada recarga. Solo pagas el contenido.</p>
+        </div>
+        <div class="step">
+          <span class="step-number">3</span>
+          <h3>Menos residuos</h3>
+          <p>Menos plástico, más fresco, más sabor. Agitar bien antes de servir.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Kefi<span>lia</span></div>
+        <p class="footer-tagline">Kefir vivo · La Paz, Bolivia</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#productos">Productos</a>
+        <a href="https://wa.me/59160134314" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+    <p class="footer-copy">© 2025 Kefilia · Hecho con amor y fermentación</p>
+  </footer>
+
+  <!-- TOAST STACK -->
+  <div id="toastStack" class="toast-stack"></div>
+
+  <!-- INLINE CART LOGIC -->
+  <script>
+    const catalog = [
+      { id: 1, name: "Kefir natural 1L", promo: 35, jar: 42, refill: 20 },
+      { id: 2, name: "Strawkefir 1L", promo: 40, jar: 48, refill: 26 },
+      { id: 3, name: "Chocokefir 1L", promo: 40, jar: 50, refill: 28 },
+      { id: 4, name: "Kefir griego natural 1L", promo: 46, jar: 55, refill: 35 },
+      { id: 5, name: "Kefir griego frutilla 1L", promo: 50, jar: 60, refill: 38 }
+    ];
+
+    const cart = new Map();
+    const grid = document.querySelector(".products-grid");
+    const cartList = document.getElementById("cartList");
+    const cartTotal = document.getElementById("cartTotal");
+    const cartWA = document.getElementById("cartWA");
+
+    function renderCart() {
+      const entries = Array.from(cart.entries()).filter(([, qty]) => qty.jar > 0 || qty.refill > 0);
+      if (!entries.length) {
+        cartList.innerHTML = '<p class="cart-empty">Aún no agregas productos.</p>';
+        cartTotal.textContent = "Bs 0";
+        cartWA.classList.add("disabled");
+        cartWA.href = "#";
+        return;
+      }
+      cartList.innerHTML = entries.map(([id, qty]) => {
+        const p = catalog.find(x => x.id === id);
+        if (!p) return "";
+        const total = qty.jar * p.jar + qty.refill * p.refill;
+        return `
+          <div class="cart-line">
+            <div class="cart-line-left">
+              <strong>${p.name}</strong>
+              ${qty.jar ? `<span class="pill soft">Frasco ×${qty.jar}</span>` : ""}
+              ${qty.refill ? `<span class="pill soft">Refill ×${qty.refill}</span>` : ""}
+            </div>
+            <div class="cart-line-right">
+              <span>Bs ${total}</span>
+              <button class="remove-btn" data-remove="${id}" type="button">✕ Quitar</button>
+            </div>
+          </div>`;
+      }).join("");
+
+      const total = entries.reduce((sum, [id, qty]) => {
+        const p = catalog.find(x => x.id === id);
+        return sum + (p ? qty.jar * p.jar + qty.refill * p.refill : 0);
+      }, 0);
+      cartTotal.textContent = `Bs ${total}`;
+
+      const waLines = entries.map(([id, qty]) => {
+        const p = catalog.find(x => x.id === id);
+        if (!p) return "";
+        const j = qty.jar ? `Frasco x${qty.jar} = Bs ${qty.jar * p.jar}` : "";
+        const r = qty.refill ? `Refill x${qty.refill} = Bs ${qty.refill * p.refill}` : "";
+        return `- ${p.name}%0A${j}%0A${r}`;
+      }).join("%0A");
+      cartWA.href = `https://wa.me/59160134314?text=Pedido Kefilia:%0A${waLines}%0ATotal: Bs ${total}`;
+      cartWA.classList.remove("disabled");
+    }
+
+    grid.addEventListener("click", ev => {
+      const card = ev.target.closest(".product-card");
+      if (!card) return;
+      const id = Number(card.dataset.id);
+      const input = card.querySelector(".qty-input");
+      const qty = Math.max(1, Number(input.value) || 1);
+      if (ev.target.closest("[data-plus]")) input.value = qty + 1;
+      if (ev.target.closest("[data-minus]")) input.value = Math.max(1, qty - 1);
+      const addJar = ev.target.closest(".add-jar");
+      const addRefill = ev.target.closest(".add-refill");
+      if (addJar || addRefill) {
+        const cur = cart.get(id) || { jar: 0, refill: 0 };
+        if (addJar) cur.jar += qty;
+        if (addRefill) cur.refill += qty;
+        cart.set(id, cur);
+        input.value = 1;
+        renderCart();
+      }
+    });
+
+    cartList.addEventListener("click", ev => {
+      const btn = ev.target.closest("[data-remove]");
+      if (!btn) return;
+      cart.delete(Number(btn.dataset.remove));
+      renderCart();
+    });
+
+    renderCart();
+  </script>
+
+  <!-- ENHANCEMENT SCRIPT -->
+  <script src="cat.js"></script>
+</body>
+
+</html>
